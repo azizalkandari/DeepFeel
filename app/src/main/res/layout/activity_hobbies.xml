@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.HobbiesActivity">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+
+            <TextView
+                    android:text="@string/label_favorite_hobbies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="16dp"
+                    android:ems="10"
+                    android:hint="@string/label_hobby_1"
+                    android:id="@+id/et_hobby_1" />
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="16dp"
+                    android:ems="10"
+                    android:hint="@string/label_hobby_2"
+                    android:id="@+id/et_hobby_2" />
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="16dp"
+                    android:ems="10"
+                    android:hint="@string/label_hobby_3"
+                    android:id="@+id/et_hobby_3" />
+
+            <Button
+                    android:text="@string/label_done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/b_done"
+                    android:backgroundTint="@color/yellow"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
